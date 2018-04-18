@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="759b293e-0f2d-4b1a-8a77-4c03975c58aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/file/2018/04/18/0418142313/挽挽.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingAerial.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingAerialLabels.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingRoads.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/blackMarble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriNationalGeographic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriWorldImagery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriWorldStreetMap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapQuestOpenStreetMap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxSatellite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxStreets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxTerrain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/naturalEarthII.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/openStreetMap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/stamenToner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/stamenWatercolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TerrainProviders/Ellipsoid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TerrainProviders/STK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TimelineIcons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/info-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/acidsoftware.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DjangoCesium.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ajax.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Cesium.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/ThirdParty/Workers/deflate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/ThirdParty/Workers/inflate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Animation/Animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Animation/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/BaseLayerPicker/BaseLayerPicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/BaseLayerPicker/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Cesium3DTilesInspector/Cesium3DTilesInspector.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumInspector/CesiumInspector.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumWidget/CesiumWidget.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumWidget/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/FullscreenButton/FullscreenButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Geocoder/Geocoder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Geocoder/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/Mouse.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseLeft.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseMiddle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseRight.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/Touch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchDrag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchRotate.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchTilt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchZoom.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/InfoBox/InfoBox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/InfoBox/InfoBoxDescription.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/NavigationHelpButton/NavigationHelpButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/NavigationHelpButton/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/PerformanceWatchdog/PerformanceWatchdog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/ProjectionPicker/ProjectionPicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/SceneModePicker/SceneModePicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/SelectionIndicator/SelectionIndicator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Timeline/Timeline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Timeline/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/VRButton/VRButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Viewer/Viewer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/lighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/lighterShared.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/shared.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/cesiumWorkerBootstrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/combineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createBoxGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createBoxOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCircleGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCircleOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCorridorGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCorridorOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCylinderGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCylinderOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipseGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipseOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipsoidGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipsoidOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createFrustumGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createFrustumOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPlaneGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPlaneOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolygonGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolygonOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineVolumeGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineVolumeOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createRectangleGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createRectangleOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSimplePolylineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSphereGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSphereOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTileGeometries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePolygons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePolylines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromGoogleEarthEnterpriseBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromHeightmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromQuantizedTerrainMesh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createWallGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createWallOutlineGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/decodeGoogleEarthEnterprisePacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/transcodeCRNToDXT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/transferTypedArrayTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/upsampleQuantizedTerrainMesh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/CesiumStage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/GLTFLoader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/OrbitControls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/three.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/web.config" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="three.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/Three/three.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLTFLoader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/Three/GLTFLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Production_4.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/assets/Scene/Production_4.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ModelShow/views.py" />
+        <option value="$PROJECT_DIR$/ModelShow/urls.py" />
+        <option value="$PROJECT_DIR$/apps/ModelShow/views.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/models.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/admin.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/urls.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
+        <option value="$PROJECT_DIR$/DjangoCesium/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoCesium/settings.py" />
+        <option value="$PROJECT_DIR$/static/main.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="272" />
+    <option name="y" value="110" />
+    <option name="width" value="1412" />
+    <option name="height" value="858" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoCesium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoCesium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoChunkedUploadDemo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DjangoTest\DjangoCesium" />
+      <recent name="E:\DjangoTest\DjangoCesium\apps\ChunkedUpload" />
+      <recent name="E:\DjangoTest\DjangoCesium\ModelShow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DjangoTest\DjangoCesium\apps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.DjangoCesium">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="DjangoCesium" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DjangoCesium" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DjangoCesium.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoCesium" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.DjangoCesium" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="759b293e-0f2d-4b1a-8a77-4c03975c58aa" name="Default" comment="" />
+      <created>1524015280819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524015280819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="272" y="110" width="1412" height="858" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2944126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@DjangoCesium" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2540107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/Three/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/acidsoftware.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/GLTFLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/Scene/Production_4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/main.js" />
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index.html.bak" />
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoCesium/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoCesium/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoCesium/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/junrei.js" />
+    <entry file="file://$PROJECT_DIR$/static/junrei.css" />
+    <entry file="file://$PROJECT_DIR$/static/stage2.js" />
+    <entry file="file://$PROJECT_DIR$/static/acidsoftware.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Three/GLTFLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index0.html" />
+    <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/Scene/Production_4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ThreeStage.js" />
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+django>=2.0.2,<2.0.99
+pillow==5.0.0
+simplejson==3.13.2
+redis==2.10.6
+

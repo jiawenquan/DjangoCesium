@@ -1,0 +1,4 @@
+﻿DjangoCesium/static/assets
+assets/
+*.bak
+*.pyc

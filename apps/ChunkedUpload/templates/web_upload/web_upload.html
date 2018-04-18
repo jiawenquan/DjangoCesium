@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.min.js"></script>
+
+    <link href="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+        <!-- List of uploaded documents -->
+        {% if documents %}
+            <ul>
+                {% for document in documents %}
+                    <li><a href="{{ document.docfile }}">{{ document.filename}}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No documents.</p>
+        {% endif %}
+<div>
+    <div id="picker">请选择</div>   <!-- 上传按钮，必须指定id选择器的值 -->
+    {#        {% csrf_token %}#}
+    <input disabled id="file_input" value="">
+    <button class="submit" id="submit">确定上传</button>
+    <button class="stop" id="stop">暂停</button>
+    <div class="progress">         <!-- 进度条 -->
+        <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:0%;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        {#        var task_id = WebUploader.Base.guid();//产生task_id，唯一标识该文件#}
+
+        var flag = false;
+        var list = [];                      // 文件分片上传成功列表
+        var file_path = "";                 // 文件上传成功后返回的路径
+        var md5Mark = "";                   // 文件唯一标识
+
+
+        WebUploader.Uploader.register
+        (
+            {
+                "before-send-file": "beforesendfile",
+                "before-send": "beforeSend"
+            },
+            {
+                beforesendfile: function (file) {            // 每个文件上传之前，验证文件是否存在
+                    var task = new WebUploader.Deferred();
+                    $.ajax({
+                        type: "post",
+                        url: "/upload/file_exist/",
+                        data: {
+                            filename: file.source['name'],
+                        },
+                        cache: false,
+                        timeout: 1000,
+                        success: function (res) {
+                            data = res;
+                            flag_exist = data.flag_exist;
+                            list = data.list;
+                            if (flag_exist) {             // 若存在，则不用上传
+                                task.reject();
+                                uploader.skipFile(file);
+                                file_path = data.file_path;
+                                $('.progress-bar').css('width', '100%');
+                                $('.progress-bar').text('上传完成');
+                                alert(file_path);
+                                location.href = '/upload/'
+                            } else {
+                                task.resolve();
+                            }
+                        }
+                    });
+                    return task.promise();
+                },
+                beforeSend: function (file) {               // 每个分片上传之前，验证分片是否存在,  这里没有做文件唯一标识的处理， 只是对文件名字进行了关联
+                    var task = new WebUploader.Deferred();
+                    var index = file.chunk;
+                    if (list.indexOf(index) > -1) {
+                        console.log('存在');
+                        task.reject();
+                    } else {
+                        task.resolve();
+                    }
+                    return task.promise();
+                }
+            }
+        );
+        var task_id = WebUploader.Base.guid();//产生task_id
+        console.log(task_id)
+        var uploader = WebUploader.create({           //创建上传控件
+            swf: 'https://cdn.bootcss.com/webuploader/0.1.1/Uploader.swf', //swf位置，这个可能与flash有关
+            server: '/upload/',                 //接收每一个分片的服务器地址
+            pick: '#picker',                          //填上传按钮的id选择器值
+            auto: false,                               //选择文件后，是否自动上传
+            chunked: true,                            //是否分片
+            chunkSize: 1024 * 1024,                  //每个分片的大小，这里为1M
+            chunkRetry: 3,                            //某分片若上传失败，重试次数
+            threads: 3,                               //线程数量，考虑到服务器，这里就选了3
+            duplicate: true,                          //分片是否自动去重
+            formData: {//每次上传分片，一起携带的数据
+                task_id: task_id,
+            },
+            prepareNextFile: true,                    // 上传本分片时预处理下一分片
+            fileNumLimit: 2,                            // 上传文件限制
+            fileSingleSizeLimit: 3 * 1024 * 1024 * 1024,       // 上传文件大小限制
+
+        });
+
+
+        // 选择完文件后的处理， 在 auto=false的情况下
+        uploader.on('fileQueued', function (file) {
+            $('#file_input').val(file.source['name']);
+        });
+
+
+        $('#submit').click(function () {
+            uploader.upload();           // 出发上传事件
+
+            // 隐藏上传按钮
+            $("#submit").hide();
+            //隐藏选择按钮
+            $("#picker").hide();
+        });
+
+
+        $('#stop').click(function () {
+            if ($('#stop').text() == '暂停') {
+                $('#stop').text('继续')
+                uploader.stop(true);
+            }
+
+            else if ($('#stop').text() == '继续') {
+                $('#stop').text('暂停')
+                //重新开启上传
+                uploader.upload();
+            }
+
+        });
+
+
+        //开始上传时，调用该方法
+        uploader.on('uploadStart', function (file) {
+            $('.progress-bar').css('width', '0%');
+            $('.progress-bar').text('0%');
+        });
+
+
+        //一个分片上传成功后，调用该方法
+        uploader.on('uploadProgress', function (file, percentage) {
+            $('.progress-bar').css('width', percentage * 100 - 1 + '%');
+            $('.progress-bar').text(Math.floor(percentage * 100 - 1) + '%');
+        });
+
+        //整个文件的所有分片都上传成功，调用该方法 // 要是auto=false的时候file 直接为source。 否则需要用file.source
+        uploader.on('uploadSuccess', function (file) {
+            //上传的信息（文件唯一标识符，文件后缀名）
+            var data = {'task_id': task_id,'ext': file['ext'], 'name': file['name'], 'type': file.source['type']};
+            $.post('/upload/success/', data, function (res) {
+                file_path = res;
+                alert(file_path);
+                location.href = '/upload/';
+            });          //ajax携带data向该url发请求
+            $('.progress-bar').css('width', '100%');
+            $('.progress-bar').text('上传完成');
+        });
+
+        //上传过程中发生异常，调用该方法
+        uploader.on('uploadError', function (file) {
+            $('.progress-bar').css('width', '100%');
+            $('.progress-bar').text('上传失败');
+        });
+
+        //上传结束，无论文件最终是否上传成功，该方法都会被调用
+        uploader.on('uploadComplete', function (file) {
+            $('.progress-bar').removeClass('active progress-bar-striped');
+        });
+
+    });
+</script>
+</body>
+
+</html>
