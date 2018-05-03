@@ -2,154 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759b293e-0f2d-4b1a-8a77-4c03975c58aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/file/2018/04/18/0418142313/挽挽.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingAerial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingAerialLabels.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/bingRoads.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/blackMarble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriNationalGeographic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriWorldImagery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/esriWorldStreetMap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapQuestOpenStreetMap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxSatellite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxStreets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/mapboxTerrain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/naturalEarthII.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/openStreetMap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/stamenToner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/ImageryProviders/stamenWatercolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TerrainProviders/Ellipsoid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TerrainProviders/STK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/TimelineIcons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/info-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/acidsoftware.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DjangoCesium.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoCesium/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/ModelShow/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ajax.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Cesium.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/ThirdParty/Workers/deflate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/ThirdParty/Workers/inflate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Animation/Animation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Animation/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/BaseLayerPicker/BaseLayerPicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/BaseLayerPicker/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Cesium3DTilesInspector/Cesium3DTilesInspector.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumInspector/CesiumInspector.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumWidget/CesiumWidget.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/CesiumWidget/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/FullscreenButton/FullscreenButton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Geocoder/Geocoder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Geocoder/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/Mouse.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseLeft.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseMiddle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/MouseRight.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/Touch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchDrag.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchRotate.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchTilt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Images/NavigationHelp/TouchZoom.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/InfoBox/InfoBox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/InfoBox/InfoBoxDescription.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/NavigationHelpButton/NavigationHelpButton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/NavigationHelpButton/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/PerformanceWatchdog/PerformanceWatchdog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/ProjectionPicker/ProjectionPicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/SceneModePicker/SceneModePicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/SelectionIndicator/SelectionIndicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Timeline/Timeline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Timeline/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/VRButton/VRButton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/Viewer/Viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/lighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/lighterShared.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/shared.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Widgets/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/cesiumWorkerBootstrapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/combineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createBoxGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createBoxOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCircleGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCircleOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCorridorGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCorridorOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCylinderGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createCylinderOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipseGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipseOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipsoidGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createEllipsoidOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createFrustumGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createFrustumOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPlaneGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPlaneOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolygonGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolygonOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineVolumeGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createPolylineVolumeOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createRectangleGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createRectangleOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSimplePolylineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSphereGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createSphereOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTileGeometries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePoints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePolygons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVectorTilePolylines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromGoogleEarthEnterpriseBuffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromHeightmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createVerticesFromQuantizedTerrainMesh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createWallGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/createWallOutlineGeometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/decodeGoogleEarthEnterprisePacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/transcodeCRNToDXT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/transferTypedArrayTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Cesium/Workers/upsampleQuantizedTerrainMesh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/CesiumStage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/GLTFLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/OrbitControls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Three/three.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/web.config" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/file/2018/04/18/0418142313/挽挽.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoCesium/settings.py" afterPath="$PROJECT_DIR$/DjangoCesium/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/ChunkedUpload/views.py" afterPath="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -164,53 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="three.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/Three/three.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLTFLoader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/Three/GLTFLoader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/ModelShow/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/web.config">
           <provider selected="true" editor-type-id="text-editor">
@@ -225,18 +36,18 @@
         <entry file="file://$PROJECT_DIR$/media/web.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <first_editor relative-caret-position="200">
+                <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -244,18 +55,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
+              <folding>
+                <element signature="e#18#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_upload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="109" column="33" lean-forward="false" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Production_4.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/assets/Scene/Production_4.json">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoCesium/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rd_view.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -273,6 +138,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>params</find>
+      <find>task_id</find>
+      <find>data</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -282,15 +154,16 @@
         <option value="$PROJECT_DIR$/ModelShow/views.py" />
         <option value="$PROJECT_DIR$/ModelShow/urls.py" />
         <option value="$PROJECT_DIR$/apps/ModelShow/views.py" />
-        <option value="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
         <option value="$PROJECT_DIR$/apps/ChunkedUpload/models.py" />
         <option value="$PROJECT_DIR$/apps/ChunkedUpload/admin.py" />
         <option value="$PROJECT_DIR$/apps/ChunkedUpload/urls.py" />
-        <option value="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
         <option value="$PROJECT_DIR$/DjangoCesium/urls.py" />
-        <option value="$PROJECT_DIR$/DjangoCesium/settings.py" />
         <option value="$PROJECT_DIR$/static/main.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DjangoCesium/settings.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/views.py" />
+        <option value="$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py" />
       </list>
     </option>
   </component>
@@ -301,8 +174,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="272" />
-    <option name="y" value="110" />
+    <option name="x" value="47" />
     <option name="width" value="1412" />
     <option name="height" value="858" />
   </component>
@@ -323,7 +195,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,12 +209,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoChunkedUploadDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -582,19 +454,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="110" width="1412" height="858" extended-state="0" />
+    <frame x="47" y="0" width="1412" height="858" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2944126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.394913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3601071" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -613,7 +485,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -661,7 +538,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -763,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -777,39 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoCesium/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-461">
-          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -824,13 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -859,7 +692,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -923,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/media/web.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -931,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -939,11 +771,63 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <first_editor relative-caret-position="200">
+            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/templates/web_upload/web_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="109" column="33" lean-forward="false" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/ChunkedUpload/rd_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoCesium/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

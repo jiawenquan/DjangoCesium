@@ -1,21 +1,23 @@
 # encoding: utf-8
-import os, shutil,copy
+import os, shutil, copy
 import time
 from libs import ajax
 from django.http import HttpResponse
 from .models import Document
 from . import models
+from django.views.decorators.csrf import csrf_exempt
 
 
+@csrf_exempt
 def index(request):
     """分片上传"""
-
+    print("sssss")
     if request.method == 'POST':
         # print("分片上传")
 
         upload_file = request.FILES.get('file')  # 获取分片
         task = request.POST.get('task_id')  # 获取文件唯一标识符
-        print("分片",task)
+        print("分片", task)
         real_file_name = upload_file._name
         chunk = request.POST.get('chunk', 0)
         print("分片上传", chunk)
@@ -33,7 +35,7 @@ def index(request):
     documents = Document.objects.all()
     return ajax.ajax_template(request, 'web_upload/web_upload.html', {'documents': documents})
 
-
+@csrf_exempt
 def upload_success(request):
     """所有分片上传成功"""
 
@@ -59,7 +61,7 @@ def upload_success(request):
                 source_file.close()
                 os.remove(filename)  # 删除该分片，节约空间
             except Exception as e:
-                #找不到碎片文件跳出循环
+                # 找不到碎片文件跳出循环
                 print(e, 222)
                 break
             chunk += 1
@@ -74,16 +76,18 @@ def upload_success(request):
         # 具体时间 小时分钟毫秒
         mdhms = time.strftime('%m%d%H%M%S')
         print("年", year)
-        mymovefile("./media/file/%s" % name, "./media/file/"+year+"/"+month+"/"+day+"/"+mdhms+"/%s" % name)
+        mymovefile("./media/file/%s" % name,
+                   "./media/file/" + year + "/" + month + "/" + day + "/" + mdhms + "/%s" % name)
 
         # 把路径储存入数据库中
-        models.Document.objects.create(docfile= "/media/file/"+year+"/"+month+"/"+day+"/"+mdhms+"/%s" % name, filename=str(name))
+        models.Document.objects.create(
+            docfile="/media/file/" + year + "/" + month + "/" + day + "/" + mdhms + "/%s" % name, filename=str(name))
 
         return HttpResponse("上传成功")
 
     return ajax.ajax_data(name)
 
-
+@csrf_exempt
 def list_exist(request):
     """判断该文件上传了多少个分片"""
     name = request.POST.get('filename')
@@ -108,7 +112,8 @@ def list_exist(request):
     # print('判断该文件上传了多少个分片',data)
     return ajax.ajax_data(data)
 
-#移动文件到新文件路径
+@csrf_exempt
+# 移动文件到新文件路径
 def mymovefile(srcfile, dstfile):
     if not os.path.isfile(srcfile):
         print("%s not exist!" % (srcfile))
@@ -119,7 +124,8 @@ def mymovefile(srcfile, dstfile):
         shutil.move(srcfile, dstfile)  # 移动文件
         print("move %s -> %s" % (srcfile, dstfile))
 
-#复制文件到新文件路径
+@csrf_exempt
+# 复制文件到新文件路径
 def mycopyfile(srcfile, dstfile):
     if not os.path.isfile(srcfile):
         print("%s not exist!" % (srcfile))

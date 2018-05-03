@@ -34,7 +34,7 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function () {
-        {#        var task_id = WebUploader.Base.guid();//产生task_id，唯一标识该文件#}
+                var task_id = WebUploader.Base.guid();//产生task_id，唯一标识该文件
 
         var flag = false;
         var list = [];                      // 文件分片上传成功列表
@@ -50,12 +50,14 @@
             },
             {
                 beforesendfile: function (file) {            // 每个文件上传之前，验证文件是否存在
+
                     var task = new WebUploader.Deferred();
                     $.ajax({
                         type: "post",
                         url: "/upload/file_exist/",
                         data: {
                             filename: file.source['name'],
+                            'X-CSRFToken': '{{ csrf_token }}'
                         },
                         cache: false,
                         timeout: 1000,
@@ -79,6 +81,7 @@
                     return task.promise();
                 },
                 beforeSend: function (file) {               // 每个分片上传之前，验证分片是否存在,  这里没有做文件唯一标识的处理， 只是对文件名字进行了关联
+{#                    file.setRequestHeader("X-CSRFtoken","{% csrf_token %}")#}
                     var task = new WebUploader.Deferred();
                     var index = file.chunk;
                     if (list.indexOf(index) > -1) {
