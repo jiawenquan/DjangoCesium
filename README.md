@@ -10,14 +10,10 @@ The front-end webupload uploader + Django backstage implementation of large file
 初始项目 Django2.0.3   python3.6
 
 
-成功 测试上传3G大小的文件
+成功 测试上传3G大小的文件（zip 压缩）
 
 没写modle ORM 上传文件 路径的映射 欢迎完善 
 
-表单 提交的token  csrf 问题未解决   暂时注释掉  settings.py 里的如下代码  
-MIDDLEWARE_CLASSES = (
-    #'django.middleware.csrf.CsrfViewMiddleware',
-)
 
 redis 缓存上传碎片的方式注释了  想尝试这个可以自己打开去配置
 
